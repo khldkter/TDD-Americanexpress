@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="5" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="auto.AutoTest">
+        <methods>
+          <include name="closingDriverSession"/>
+          <include name="logInSteapsTest"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- auto.AutoTest -->
+      <class name="auto.AboutPagesTest">
+        <methods>
+          <include name="forgotPassWordStepsTest"/>
+          <include name="closingDriverSession"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- auto.AboutPagesTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
